@@ -1,0 +1,36 @@
+{
+  "name": "homebridge-ble-environmental-sensor",
+  "version": "0.0.1",
+  "description": "environmental sensor via BLE",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moritzmhmk/homebridge-ble-environmental-sensor.git"
+  },
+  "keywords": [
+    "environmental",
+    "temperature",
+    "humidity",
+    "pressure",
+    "ble",
+    "noble",
+    "homekit",
+    "homebridge",
+    "homebridge-plugin"
+  ],
+  "author": "Moritz K.",
+  "engines": {
+    "homebridge": ">=0.2.0"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/moritzmhmk/homebridge-ble-environmental-sensor/issues"
+  },
+  "homepage": "https://github.com/moritzmhmk/homebridge-ble-environmental-sensor#readme",
+  "dependencies": {
+    "noble": "^1.8.0"
+  }
+}
