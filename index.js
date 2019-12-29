@@ -1,4 +1,4 @@
-var noble = require('noble')
+var noble = require('@abandonware/noble')
 
 let Service, Characteristic
 

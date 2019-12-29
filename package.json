@@ -1,6 +1,6 @@
 {
   "name": "homebridge-ble-environmental-sensor",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "environmental sensor via BLE",
   "main": "index.js",
   "scripts": {
@@ -31,6 +31,6 @@
   },
   "homepage": "https://github.com/moritzmhmk/homebridge-ble-environmental-sensor#readme",
   "dependencies": {
-    "noble": "^1.8.0"
+    "@abandonware/noble": "^1.9.2-5"
   }
 }
